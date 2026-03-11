@@ -166,13 +166,13 @@ initial_activities = {
     },
     "Manga Maniacs": {
         "description": "Dive into epic adventures, powerful heroes, and unforgettable villains! Explore the vibrant world of Japanese Manga — where every panel tells a story and every story changes your world.",
-        "schedule": "Tuesdays, 7:00 PM - 8:30 PM",
+        "schedule": "Tuesdays, 5:00 PM - 6:30 PM",
         "schedule_details": {
             "days": ["Tuesday"],
-            "start_time": "19:00",
-            "end_time": "20:30"
+            "start_time": "17:00",
+            "end_time": "18:30"
         },
-        "max_participants": 15,
+        "max_participants": 25,
         "participants": []
     }
 }

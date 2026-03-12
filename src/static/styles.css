@@ -298,6 +298,68 @@ button {
   transition: background-color 0.2s;
 }
 
+/* Social share buttons */
+.share-buttons {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-top: 8px;
+  margin-top: 6px;
+  border-top: 1px solid var(--border-light);
+}
+
+.share-label {
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  margin-right: 2px;
+  flex-shrink: 0;
+}
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.2s;
+  text-decoration: none;
+  padding: 0;
+  flex-shrink: 0;
+}
+
+.share-btn:hover {
+  opacity: 0.85;
+  transform: scale(1.1);
+}
+
+.share-btn-facebook {
+  background-color: #1877f2;
+  color: #ffffff;
+}
+
+.share-btn-twitter {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.share-btn-whatsapp {
+  background-color: #25d366;
+  color: #ffffff;
+}
+
+.share-btn-copy {
+  background-color: var(--border);
+  color: var(--text-primary);
+}
+
+.share-btn-copied {
+  background-color: var(--success);
+  color: #ffffff;
+}
+
 /* Tooltip styles */
 .tooltip {
   position: relative;
